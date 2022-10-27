@@ -1,0 +1,1659 @@
+::-webkit-datetime-edit-year-field:not([aria-valuenow]),
+::-webkit-datetime-edit-month-field:not([aria-valuenow]),
+::-webkit-datetime-edit-day-field:not([aria-valuenow]) {
+    color: transparent;
+}
+input[type="date"]::before {
+    content: attr(placeholder);
+    position: absolute;
+    color: #999999;
+  }
+  
+  input[type="date"] {
+    color: #ffffff;
+  }
+  
+  input[type="date"]:focus,
+  input[type="date"]:valid {
+    color: #666666;
+  }
+  
+  input[type="date"]:focus::before,
+  input[type="date"]:valid::before {
+    content: "";
+  }
+input[type="datetime-local"]:after{
+    content:'';
+}
+input[type="datetime-local"]:before {
+    content: attr(placeholder) !important;
+}
+
+.navbar{
+    position: absolute;
+    width: 100%;
+    height:64px;
+    left: 0px;
+    top: 0px;
+    
+    background: #FFFFFF;
+
+}
+.logo-size{
+    position: absolute;
+width: 87px;
+height: 38.11px;
+left: 89px;
+top: 13px;
+
+
+}
+
+.header-section{
+    position: absolute;
+    width: 100%;
+    height: 625px;
+    left: -1px;
+    top: 4px;
+    font-family: 'Poppins';
+    background: #003145;
+}
+.yellow-horizontal-line{
+    position: absolute;
+width: 9.71px;
+height: 115.91px;
+left: 143px;
+top: 188px;
+
+background: #FFCE5C;
+}
+.header{
+    position: absolute;
+    width: 643px;
+    height: 112px;
+    left: 205px;
+    top: 190px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    /* or 117% */
+    
+    
+    color: #FFFFFF;
+}
+.second-line{
+    position: absolute;
+    width: 531px;
+    height: 112px;
+    left: 205px;
+    top: 340px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    
+    
+    color: #ECECEC;
+}
+
+
+.logo-rocket{
+    position: absolute;
+width: 242px;
+height: 294px;
+left: 1050.34px;
+top: 170px;
+
+
+}
+
+.buttons{
+    position: absolute;
+    width: 198px;
+    height: 47px;
+    left: 205px;
+    top: 489px;
+    
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 18px;
+/* identical to box height, or 100% */
+
+text-align: center;
+
+}
+
+.width-logo{
+    height: 3em;
+}
+.header-section{
+    position: absolute;
+width: 100%;
+height: 625px;
+left: -1px;
+top: 4px;
+
+background: #003145;
+}
+.intro-data{
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    left: -1px;
+    top: 625px;
+    
+    background: #002A3B;
+}
+.ai-icon{
+    position: absolute;
+width: 55px;
+height: 55px;
+left: 183px;
+top: 72px;
+
+background: #F2F4FF;
+border-radius: 15px;
+left: 10%;
+right: 0%;
+top: 33.33%;
+bottom: 33.33%;
+
+background: #002A3B;
+}
+.icon-count{
+    position: absolute;
+    width: 157px;
+    height: 17px;
+    left: 222px;
+    top: 80px;
+    right: 32px;
+    bottom:102px;
+   
+    /* or 83% */
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 20px;
+    color: #FFFFFF;
+
+}
+.icon-detail{
+    position: absolute;
+width: 169px;
+height: 17px;
+left: 222px;
+top: 105px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+/* or 125% */
+color: #FFFFFF;
+}
+.border-between{
+    position: absolute;
+width: 1px;
+height: 38px;
+left: 492px;
+top: 79px;
+
+background: #C4C4C4;
+}
+.second-icon{
+    position: absolute;
+width: 55px;
+height: 55px;
+left: 608px;
+top: 72px;
+
+background: #F2F4FF;
+border-radius: 15px;;
+background: #002A3B;
+}
+.second-icon-count{
+    position: absolute;
+    width: 83px;
+    height: 17px;
+    left: 695px;
+    top: 81px;
+    right: 32px;
+    bottom:102px;
+
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 20px;
+    /* or 83% */
+    
+    
+    color: #FFFFFF;
+}
+
+.second-icon-detail{
+    position: absolute;
+width: 135px;
+height: 17px;
+left: 695px;
+top: 106px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+/* or 125% */
+
+
+color: #FFFFFF;
+}
+.borderline-between-2-3{
+    position: absolute;
+width: 1px;
+height: 38px;
+left: 918px;
+top: 81px;
+
+background: #C4C4C4;
+}
+.third-icon{
+    position: absolute;
+width: 55px;
+height: 55px;
+left: 1010px;
+top: 72px;
+
+background: #F2F4FF;
+border-radius: 15px;
+}
+.icon-third-count{
+    position: absolute;
+width: 120px;
+height: 17px;
+left: 1086px;
+top: 81px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 20px;
+/* or 83% */
+
+
+color: #FFFFFF;
+
+}
+.icon-third-detail{
+    position: absolute;
+width: 172px;
+height: 17px;
+left: 1086px;
+top: 106px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+/* or 125% */
+
+
+color: #FFFFFF;
+
+}
+
+
+/* Participate Section*/
+
+.participate-whole-section{
+    position: absolute;
+width: 100%;
+height: 902px;
+left: 0px;
+top: 829px;
+
+background: #FFFFFF;
+}
+
+.participate-header{
+    position: absolute;
+width: 912px;
+height: 24px;
+left: 264px;
+top: 90px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 20px;
+/* or 62% */
+
+text-align: center;
+
+color: #000000;
+
+}
+.participate-card-section{
+    position: absolute;
+width: 542px;
+height: 276px;
+left: 160px;
+top: 180px;
+
+background: #F8F9FD;
+border-radius: 20px;
+}
+.participate-logo-1{
+    position: absolute;
+left: 6.25%;
+right: 6.25%;
+top: 15.62%;
+bottom: 15.62%;
+
+background: #0FA958;
+}
+.card-1-title{
+    position: absolute;
+width: 266px;
+height: 52px;
+left: 31px;
+top: 107px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 50px;
+/* or 208% */
+
+letter-spacing: -0.03em;
+
+color: #000000;
+
+}
+.content-1{
+    position: absolute;
+width: 471px;
+height: 50px;
+left: 31px;
+top: 164px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+letter-spacing: -0.02em;
+
+color: #64607D;
+}
+
+.participate-card-section-2{
+    position: absolute;
+width: 542px;
+height: 276px;
+left: 737px;
+top: 180px;
+
+background: #F8F9FD;
+border-radius: 20px;
+}
+.card-2-logo{
+    position: absolute;
+left: 5.75%;
+right: 43.82%;
+top: 20.25%;
+bottom: 65.83%;
+
+background: #0FA958;
+}
+.card-2-title{
+    position: absolute;
+    width: 426px;
+    height: 52px;
+    left: 31px;
+    top: 107px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 50px;
+    /* or 208% */
+    
+    letter-spacing: -0.03em;
+    
+    color: #000000;
+    
+      
+}
+.card-2-content{
+    position: absolute;
+    width: 484px;
+    height: 50px;
+    left: 31px;
+    top: 164px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    letter-spacing: -0.02em;
+    
+    color: #64607D;
+}
+
+.participate-card-section-3{
+    position: absolute;
+width: 542px;
+height: 276px;
+left:160px;
+top: 502px;
+
+background: #F8F9FD;
+border-radius: 20px;
+}
+.card-3-logo{
+    position: absolute;
+left: 32.88px;
+right: 85.38%;
+top: 55px;
+bottom: 17.22px;
+
+border: 2px solid #0FA958;
+}
+.card-3-title{
+    position: absolute;
+width: 266px;
+height: 52px;
+left: 31px;
+top: 107px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 50px;
+/* or 208% */
+
+letter-spacing: -0.03em;
+
+color: #000000;
+
+}
+.card-3-content{
+    position: absolute;
+width: 471px;
+height: 50px;
+left: 31px;
+top: 169px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+letter-spacing: -0.02em;
+
+color: #64607D;
+
+}
+.participate-card-section-4{
+    position: absolute;
+width: 542px;
+height: 276px;
+left: 737px;
+top: 503px;
+bottom:179.31px;
+background: #F8F9FD;
+border-radius: 20px;
+}
+.card-4-logo{
+    position: absolute;
+left: 32px;
+right: 43.67%;
+top: 50.31px;
+bottom: 56.01%;
+
+border: 2px solid #0FA958;
+}
+.card-4-title{
+    position: absolute;
+width: 266px;
+height: 52px;
+left: 31px;
+top: 107px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 50px;
+/* or 208% */
+
+letter-spacing: -0.03em;
+
+color: #000000;
+}
+.card-4-content{
+    position: absolute;
+width: 484px;
+height: 50px;
+left: 31px;
+top: 164px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+letter-spacing: -0.02em;
+
+color: #64607D;
+
+}
+
+/* Exlore challenge */
+.search-section{
+    position: absolute;
+width: 100%;
+height: 60%;;
+left: 0px;
+top: 1731px;
+
+background: #002A3B;
+}
+
+.search-title{
+    position: absolute;
+width: 353px;
+height: 40px;
+left: 543px;
+top: 72px;
+right:544px;
+text-align: center;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 40px;
+/* identical to box height, or 143% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+.search-input{
+    position: absolute;
+width: 829px;
+height: 50px;
+left: 238px;
+top: 176px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 50px rgba(111, 111, 111, 0.1);
+border-radius: 12px;
+}
+
+/* Dropdown */
+.search-filter{
+    box-sizing: border-box;
+
+position: absolute;
+width: 110px;
+height: 50px;
+margin:-94px 238px 157px 1092px;
+
+
+background: #FFFFFF;
+border: 1px solid #EAEAEA;
+border-radius: 12px;
+}
+.filter-text{
+    position: absolute;
+width: 110px;
+height: 50px;
+margin:12px 5px 12px 33px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height, or 144% */
+
+
+color: #000000;
+}
+.filter-icon{
+    position: absolute;
+left: 45.64%;
+right: 30.55%;
+top: 40%;
+bottom: 44%;
+
+border:none;
+}
+.main-whole-card-section{
+    position: absolute;
+width: 100%;
+height: auto;
+left: 0px;
+top: 2055px;
+
+background: #003145;
+}
+.filter-open{
+  position:relative;  
+width: 290px;
+height: 394px;
+margin:179px 63px 947px 1092px;
+
+background: #FFFFFF;
+box-shadow: 0px 6px 12px rgba(221, 230, 237, 0.3);
+border-radius: 10px;
+}
+
+.stack-top{
+        z-index: 9;
+        
+    }
+.filter-name{
+    position: absolute;
+width: 49px;
+height: 20px;
+left: 16px;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+display: flex;
+align-items: center;
+
+color: #666666;
+}
+.single-filter-section{
+    
+box-sizing: border-box;
+
+position: absolute;
+right: 12px;
+left: 13px;
+
+border-radius: 3px;
+}
+
+/*form details*/
+
+.form-whole-section{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 64px;
+    
+    background: #F8F9FD;
+
+background: #F8F9FD;
+}
+.challenge_details{
+    position: absolute;
+width: 100%;
+height: 107px;
+left: 0px;
+top: 64px;
+
+background: #F8F9FD;
+}
+.challenge-text{
+    position: absolute;
+width: 206px;
+height: 29px;
+margin:41px 1145px 37px 89px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+.challenge-name{
+    position: absolute;
+width: 163px;
+height: 21px;
+left: 89px;
+top: 204px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+/* Gray 1 */
+
+color: #333333;
+
+}
+.start-date{
+    position: absolute;
+width: 163px;
+height: 21px;
+left: 89px;
+top: 317px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+/* Gray 1 */
+
+color: #333333;
+
+}
+.end-date{
+    position: absolute;
+    width: 163px;
+    height: 21px;
+    left: 89px;
+    top: 430px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    /* Gray 1 */
+    
+    color: #333333;
+     
+}
+.description-form{
+    position: absolute;
+width: 163px;
+height: 21px;
+left: 89px;
+top: 553px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+/* Gray 1 */
+
+color: #333333;
+
+}
+.image-form{
+    position: absolute;
+width: 163px;
+height: 21px;
+left: 89px;
+top: 889px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+/* Gray 1 */
+
+color: #333333;
+
+}
+.image-form .icon-upload{
+    position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 20.83%;
+bottom: 20.83%;
+
+background: #666666;
+}
+.level-type{
+    position: absolute;
+width: 163px;
+height: 21px;
+left: 89px;
+top: 1017px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+/* Gray 1 */
+
+color: #333333;
+
+}
+.level-type-edit{
+    position: absolute;
+width: 163px;
+height: 21px;
+margin:1188px 1188px 202px 92px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+/* Gray 1 */
+
+color: #333333;
+
+}
+#selectOption-edit{
+    
+box-sizing: border-box;
+
+position: absolute;
+width: 236px;
+height: 39px;
+left: 89px;
+top: 1228px;
+
+border: 1px solid #B7B7B7;
+border-radius: 5px;
+}
+
+#challenge_name{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 453px;
+    height: 39px;
+    left: 89px;
+    top: 244px;
+    
+    border: 1px solid #B7B7B7;
+    border-radius: 5px;
+}
+#start_date{
+    box-sizing: border-box;
+
+position: absolute;
+width: 453px;
+height: 39px;
+left: 89px;
+top: 357px;
+
+border: 1px solid #B7B7B7;
+border-radius: 5px;
+}
+#end_date{
+    box-sizing: border-box;
+
+position: absolute;
+width: 453px;
+height: 39px;
+left: 89px;
+top: 470px;
+
+border: 1px solid #B7B7B7;
+border-radius: 5px;
+}
+#description{
+    box-sizing: border-box;
+
+position: absolute;
+width: 817px;
+height: 252px;
+left: 89px;
+top: 593px;
+
+border: 1px solid #B7B7B7;
+border-radius: 5px;
+}
+
+input[type='file']{
+    display:none;
+}
+.image-upload{
+    display:block;
+    box-sizing: border-box;
+
+position: absolute;
+width: 236px;
+height: 47px;
+left: 89px;
+top: 929px;
+
+background: #F4F4F4;
+border: 1px solid #D9D9D9;
+border-radius: 5px;
+}
+#selectOption{
+    box-sizing: border-box;
+
+position: absolute;
+width: 236px;
+height: 39px;
+left: 89px;
+top: 1057px;
+
+border: 1px solid #B7B7B7;
+border-radius: 5px;
+}
+.create-challenge-button{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 6px 18px;
+gap: 10px;
+
+position: absolute;
+width: 214px;
+height: 46px;
+left: 89px;
+top: 1152px;
+bottom:67px;
+
+/* dphigreen */
+
+background: #44924C;
+border-radius: 10px;
+border:none;
+}
+
+
+/*Detail page */
+
+/* Card Design */
+.card-image{
+    position: absolute;
+width: 354px;
+height: 174px;
+left:-1px;
+top:-1px;
+
+
+background: rgba(0, 0, 0, 0.3);
+}
+.challenge-card-title{
+    position: absolute;
+width: 246px;
+height: 44px;
+margin:239px 40px 190px 40px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+display: flex;
+align-items: center;
+text-align: center;
+}
+.feature{
+    position: absolute;
+width: 87px;
+height: 21px;
+margin:199px 113px 253px 113px;
+
+
+border-radius: 5px;
+}
+.feature .featureText{
+    position: absolute;
+width: 61px;
+height: 14px;
+margin:2px 13px 5px 13px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* or 133% */
+
+text-align: center;
+
+color: #000000;
+}
+.countdownCompetition{
+    position: absolute;
+width: 142px;
+height: 13px;
+margin:309px 95px 151px 95px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 14px;
+/* or 100% */
+
+text-align: center;
+
+color: #444444;
+
+}
+.card-button-participate{
+    position: absolute;
+width: 182.55px;
+height: 42px;
+margin:395px 86px 27px 70.45px;
+
+background: #44924C;
+border: none;
+border-radius: 10px;
+}
+ .participate-button-text{
+    position: absolute;
+width: 113px;
+height: 18px;
+margin: -8px 40px 12px -53.55px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.card-button-participate .buttonParticipateIcon{
+    position: absolute;
+
+margin:13.98px 17.97px 13.97px 100.52px;
+
+border: none;
+}
+
+
+/* Single Detailed Page*/
+.detail-jumbo{
+   
+    position: absolute;
+width: 100%;
+height: 419px;
+left: -1px;
+top: 64px;
+
+background: #003145;
+}
+
+.time-start-detail{
+position: absolute;
+width: 464px;
+height: 34px;
+left: 130px;
+top: 160px;
+
+background: #FFCE5C;
+border-radius: 5px;
+}
+
+.time-start-count{
+position: absolute;
+width: 480px;
+height: 34px;
+left: 150px;
+top: 160px;
+
+background: #FFCE5C;
+border-radius: 5px;
+}
+.time-start-count .date-text{
+    position: absolute;
+width: 367px;
+height: 12px;
+margin:11px 20px 0px 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 12px;
+/* identical to box height, or 86% */
+
+
+color: #000000;
+
+}
+.single-card-design{
+
+
+width: 354px;
+height: 473px;
+
+
+background: #FFFFFF;
+/* hubshadow */
+
+box-shadow: 0px 4px 43px rgba(0, 0, 0, 0.08);
+border-radius: 15px;
+}
+.detail-header{
+    position: absolute;
+width: 818px;
+height: 48px;
+left: 150px;
+top: 218px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height, or 120% */
+
+
+color: #FFFFFF;
+}
+.identity-class{
+    position: absolute;
+width: 576px;
+height: 31px;
+left: 150px;
+top: 299px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+/* or 133% */
+
+
+color: #F8F9FD;
+}
+.difficulty-level{
+    position: absolute;
+width: 102px;
+height: 34px;
+left: 150px;
+top: 354px;
+
+background: #F8F9FD;
+border-radius: 5px;
+}
+.difficulty-level .level-text{
+    position: absolute;
+width: 40px;
+height: 12px;
+margin:12px 25px 10px 45px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 12px;
+/* identical to box height, or 86% */
+
+
+color: #003145;
+}
+
+.difficulty-level .difficulty-level-icon{
+    position: absolute;
+margin:10.25px 21.13px 9.13px 23.12px;
+
+background: #F8F9FD;
+}
+
+.overview-section{
+    box-sizing: border-box;
+
+position: absolute;
+width: 100%;
+height: 66px;
+left: -1px;
+top: 483px;
+
+/* B10 */
+
+background: #FFFFFF;
+border: 0.3px solid #DDE6ED;
+box-shadow: 0px 6px 12px #DDE6ED;
+}
+.overview-text{
+   position: absolute;
+width: 85px;
+height: 29px;
+margin:25px 1208px 12px 147px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 161.8%;
+/* or 29px */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+.green-overview-line{
+    position: absolute;
+width: 125px;
+height: 4px;
+margin:62px 1188px 0px 127px;
+
+background: #44924C;
+border-radius: 20px;
+}
+.overview-btn-edit{
+    position: absolute;
+width: 91px;
+height: 37px;
+margin:14px 228px 15px 1121px;
+
+background: #67b36f;
+border-radius: 10px; 
+border:none;    
+}
+.overview-btn-text{
+    position: absolute;
+width: 27px;
+height: 18px;
+left: 32px;
+top: 10px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.overview-btn-delete{
+    position: absolute;
+width: 91px;
+height: 37px;
+left: 1230px;
+top: 14px;
+right:119px;
+border:1px solid #DC1414;
+border-radius:10px
+}
+.overview-btn-delete-text{
+    position: absolute;
+width: 46px;
+height: 18px;
+left: 23px;
+top: 10px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+text-align: center;
+
+color: #DC1414;
+}
+.overview-detail{
+    position: absolute;
+width: 956px;
+height: 322px;
+margin:595px 358px 19px 126px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+
+letter-spacing: 0.05em;
+
+color: #64607D;
+
+}
+
+.image-edit{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 297px;
+    height: 218px;
+    left: 89px;
+    top: 929px;
+    
+    background: #F8F9FD;
+    border: 1px solid #F8F9FD;
+    border-radius: 10px;
+}
+.search-icon{
+    position: absolute;
+margin:193.04px 1148.59px 116.59px 277.04px;
+background: #000000;
+}
+
+.horizontal-line{
+    
+position: absolute;
+width: 265.01px;
+height: 0px;
+margin:63.11px 12px 330.89px 13px;
+
+/* B100 */
+
+border: 1px solid #ECECEC;
+transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+
+.edit-image-section{
+    position: absolute;
+    width: 297px;
+    height: 218px;
+    margin : 929px 1050px 264px 89px; 
+    
+    background: #F8F9FD;
+    border: 1px solid #F8F9FD;
+    border-radius: 10px;
+}
+
+.edit-image-class{
+    position: absolute;
+width: 249px;
+height: 122.39px;
+margin:22px 27px 73.61px 21px;
+
+background: rgba(0, 0, 0, 0.3);
+border-radius: 15px;
+}
+.uploadImageEdit{
+    position: absolute;
+width: 15px;
+height: 15px;
+margin:173.94px 61px 30.94px 21px;
+
+
+}
+/* Change image */
+
+
+.uploadImageText{
+   position: absolute; 
+width: 99px;
+height: 17px;
+margin:1500px 1550px 29px 430px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+/* dphigreen */
+
+color: #44924C;
+
+
+}
+/* Vector */
+
+.uploadImageArrow{
+            position: absolute;
+            width: 15px;
+            height: 15px;
+margin: 172px 141px 29px 146px;
+
+border: 1.4px solid #44924C;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.selectoption-edit{
+    position: absolute;
+width: 163px;
+height: 21px;
+left: 89px;
+top: 1188px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+/* Gray 1 */
+
+color: #333333;
+}
+.edit-challenge-btn{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 6px 18px;
+gap: 10px;
+
+position: absolute;
+width: 214px;
+height: 46px;
+margin:1313px 1137px 52px 89px;
+
+/* dphigreen */
+
+background: #44924C;
+border-radius: 10px;
+border:none;
+}
+.countdown{
+    position: absolute;
+    align-items: center;
+    width: 31.07.07px;
+    height: 29.92px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    
+    
+    color: #454545;
+    
+}
+.days{
+    margin: 330px 208.93px 113.08px 114px;
+}
+.hours{
+    margin: 330px 165.93px 113.08px 145px;
+}
+.minutes{
+    margin: 330px 113.93px 113.08px 177px;
+}
+.span-between1{
+    position: relative;
+    margin:330px 133px 113.5px 4px
+}
+.span-between{
+    position: relative;
+    margin: 300px 133px 120px 4px
+}
+.ended-on{
+    position: absolute;
+width: 206px;
+height: 30px;
+margin:342px 74px 101px 98px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+
+
+color: #454545;
+}
+
+.form-check{
+    position: absolute;
+width: 41px;
+height: 23px;
+}
+.form-check .form-filters{
+    position: absolute;
+width: 17px;
+height: 23px;
+
+/* Body Main */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 161.8%;
+/* identical to box height, or 23px */
+
+display: flex;
+align-items: center;
+
+/* B400 */
+
+color: #858585;
+}
+
+.dropdown-section-menu{
+    
+position: absolute;
+overflow:visible;
+z-index: 9;
+width: 290px;
+height: 394px;
+top:222px;
+left :1092px;
+
+background: #FFFFFF;
+box-shadow: 0px 6px 12px rgba(221, 230, 237, 0.3);
+border-radius: 10px;
+}
+
+.form-filter-all{
+    top:20px;
+}
+.filtered-btn{
+    position: absolute;
+width: 76px;
+height: 13px;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 14px;
+/* or 100% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+.cancel-btn{
+    position: absolute;
+left: 8.23%;
+right: 8.43%;
+top: 8.23%;
+bottom: 8.23%;
+
+background: #FFFFFF;
+}
+.logoOrg{
+   /* main_logo_with_darktext_dphi 1 */
+
+position: absolute;
+width: 87px;
+height: 38.11px;
+left: 89px;
+top: 13px;
+
+
+
+}
+.days-hours-minutes{
+    position: absolute;
+width: 28.77px;
+height: 9.89px;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 10px;
+/* identical to box height, or 100% */
+
+text-align: center;
+
+/* Gray 2 */
+
+color: #4F4F4F;
+}
+.day{
+    margin:362px 214px 101.11px 111px;
+}
+.hour{
+   margin:362px 163px 101px 140px;
+}
+.minute{
+    margin:362px 114.23px 101.11px 170px;
+ }
