@@ -16,13 +16,10 @@ function BackgroundTitle() {
         <Col>
         <div className="yellow-horizontal-line"></div>
         <h1 className="header">
-                Accelerate Innovation with Global AI Challenges
+        Skills speak louder than words
             </h1>
         <p className="second-line">
-                AI Challenges at DPhi simulate real-world problems. 
-                It is a great place to put your AI/Data Science skills to 
-                test on diverse datasets allowing you to foster learning 
-                through competitions.
+        We help companies develop the strongest tech teams around. We help candidates sharpen their tech skills and pursue job opportunities.
             </p>
             
         <Button variant="none" className="buttons" onClick={()=>setCreateChallenge(!createChallenge)}>Create Challenge</Button> 

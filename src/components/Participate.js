@@ -30,7 +30,7 @@ function participate(){
 
     return (
         <section className='participate-whole-section'>
-            <h3 className="participate-header">Why Participate in <span style={{color:'#44924C'}} >AI Challenges?</span></h3>
+            <h3 className="participate-header">Why Participate in <span style={{color:'#44924C'}} >coding Challenges?</span></h3>
               <Row>
             <Col className='participate-card-section'>
                 <img src={CarbonNotebook} className='participate-logo-1'/>
@@ -41,7 +41,7 @@ function participate(){
               <Col className='participate-card-section-2'>
                 <img src={Vector} className='card-2-logo'/>
                 <h4 className='card-2-title'>Learn from community</h4>
-                <p className='card-2-content'>One can look and analyze the solutions submitted by the other Data Scientists in the community and learn from them.</p>
+                <p className='card-2-content'>One can look and analyze the solutions submitted by the other and learn from them.</p>
               
               </Col>
               </Row>

@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-import LogoOrg from './Aicon'
+import logo192 from '../assets/logo/logo192.png'
 import './components.css'
 function Basicexample() {
   return (
@@ -11,11 +11,11 @@ function Basicexample() {
     <Navbar bg="light" expand="lg" >
       <Container>
         <Navbar.Brand href="#home"> <img 
-              src={LogoOrg}
+              src={logo192}
               width="30"
               height="30"
               className="logo-size logoOrg"
-              alt="DPhi"
+              alt="logo"
             /></Navbar.Brand>
         
       </Container>
