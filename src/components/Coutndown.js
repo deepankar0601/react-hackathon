@@ -28,20 +28,22 @@ const Clock = (props) => {
   useEffect(() => {
     const interval=setInterval(() => getTimeUntil(timer), 1000);
 
-    return () =>clearInterval(interval);
-  }, [timer]);
+    //return () =>clearInterval(interval);
+  },[timer]);
 
   return (<>
     <div>
      <span className="countdown days">{leading0(days)}<span className="span-between">:</span> </span>
      <span className="countdown hours">{leading0(hours)}<span className="span-between1">:</span> </span>
-     <span className="countdown minutes"> {leading0(minutes)}</span>
+     <span className="countdown minutes"> {leading0(minutes)} <span className="span-between2">:</span></span>
+     <span className="countdown seconds"> {leading0(seconds)}</span>
      
     </div>
     <div> 
           <span className='days-hours-minutes day'>Days</span>
           <span className='days-hours-minutes hour'>Hour</span>
           <span className="days-hours-minutes minute">Mins</span>
+          <span className="days-hours-minutes second">secs</span>
     </div>
     </>
   );

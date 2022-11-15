@@ -1200,7 +1200,7 @@ color: #FFFFFF;
 width: 576px;
 height: 31px;
 left: 150px;
-top: 299px;
+top: 316px;
 
 font-family: 'Inter';
 font-style: normal;
@@ -1516,10 +1516,13 @@ border:none;
     margin: 330px 208.93px 113.08px 114px;
 }
 .hours{
-    margin: 330px 165.93px 113.08px 145px;
+    margin: 330px 165.93px 113.08px 150px;
 }
 .minutes{
-    margin: 330px 113.93px 113.08px 177px;
+    margin: 330px 113.93px 113.08px 180px;
+}
+.seconds{
+    margin: 330px 95.93px 113.08px 215px;
 }
 .span-between1{
     position: relative;
@@ -1529,6 +1532,7 @@ border:none;
     position: relative;
     margin: 300px 133px 120px 4px
 }
+
 .ended-on{
     position: absolute;
 width: 206px;
@@ -1652,8 +1656,11 @@ color: #4F4F4F;
     margin:362px 214px 101.11px 111px;
 }
 .hour{
-   margin:362px 163px 101px 140px;
+   margin:362px 114.23px 101px 145px;
 }
 .minute{
-    margin:362px 114.23px 101.11px 170px;
+    margin:362px 114.23px 101.11px 175px;
+ }
+ .second{
+    margin:362px 114.23px 101.11px 210px;
  }

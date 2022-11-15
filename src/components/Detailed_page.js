@@ -25,7 +25,7 @@ function DetailPage(){
             <section className="detail-jumbo">
               <div className='time-start-count'><p className="date-text"> {timeline.status.toUpperCase()  }   { new Date(timeline.dates).toUTCString()}</p></div>
               <h1 className='detail-header'> {challengeName}</h1>
-              <p className="identity-class">Identify the class to which each butterfly belongs to</p>
+              <p className="identity-class">{description}</p>
               <div className='difficulty-level'><img src={mySvg.DifficultyLevelIcon}className='difficulty-level-icon'/><div className="level-text">{selectedValue}</div></div>
             </section>
             <section className='overview-section'>

@@ -33,19 +33,19 @@ function FormSearch(){
   <textarea id='description' name='description' value={formData.description} onChange={handleChange} required/>
 
   <label htmlFor="image_upload" className='image-form'>Image</label>
-  {isEditing ? <EditImage/>
-      : <><input type='file' id='image_upload'className='image-upload' name='upload' accept="image/*" value={imageFile} onChange={handleImageUpload} hidden required/>
+  {
+     <><input type='file' id='image_upload' className='image-upload' name='upload' accept="image/*" value={imageFile} onChange={handleImageUpload} hidden required/>
         <button type='submit' className="image-upload" onClick={handleFile}>Upload <img src={mySvg.UploadIcon}/></button></> }
   
   
-  <label htmlFor={isEditing ?'selectOption-edit':'selectOption'} className={isEditing? 'level-type-edit':'level-type'}  >Level</label>
-  <select id={isEditing ?'selectOption-edit':'selectOption'} name='selectedValue'  defaultValue={formData.selectedValue} onChange={handleChange} required>
+  <label htmlFor={isEditing ?'selectOption-edit':'selectOption'} className='level-type'>Level</label>
+  <select id={'selectOption'} name='selectedValue'  defaultValue={formData.selectedValue} onChange={handleChange} required>
     <option value="Easy" >Easy</option>
     <option value="Meduim">Medium</option>
     <option value="Hard">Hard</option>
     
     </select>
-  <button type='submit' value='submit'className={isEditing ? 'edit-challenge-btn': "create-challenge-button"}  > {isEditing ? 'Edit Challenge' : 'Create Challenge'}</button>
+  <button type='submit' value='submit'className="create-challenge-button"  > {isEditing ? 'Edit Challenge' : 'Create Challenge'}</button>
  </form>
  </section>
     )
